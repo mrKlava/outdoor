@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+
+//////////////////////////////////////
+//              COLORS              //
+//////////////////////////////////////
+
+
+$noir:                  #000;
+$noir-new:              #191919;
+
+$gray-text:             #404040;
+
+
+$pink-red:              #fb2056;
+$pink-red-hover:        #da1c4b;
+
+$blanche:               #fff;
+$white-new:             #f5f5f5;
+
+     // BG
+$bg-body:               $blanche;
+$bg-footer:             $noir-new;
+
+$bg-btn-prm:            $pink-red;
+$bg-btn-prm-hover:      $pink-red-hover;
+
+
+    // FONTS
+$color-title:           $noir-new;
+$color-text:            $gray-text;
+
+$color-title-con:       $blanche;
+$color-text-con:        $blanche;
+
+        // Nav-link
+$color-navlink:         $blanche;
+$color-navlink-mob:     $gray-text;
+$color-navlink-active:  $pink-red;
+// $color-navlink-hover:   $gold;
+        // Btn
+$color-btn-prm:         $blanche;
+
+
+
+//////////////////////////////////////
+//              TEXT                //
+//////////////////////////////////////
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+$font-title:            'Montserrat', sans-serif;
+$font-text:             'Noto Sans', sans-serif;
+
+    // SIZE
+    
+$font-size-base:        16px;    // 1rem
+// Titles
+$text-xl:               4rem;    // 64px 
+$text-lg:               1.5rem;  // 24px
+$text-md:               1.125rem;// 18px
+$text-sm:               1rem;    // 16px
+$text-xs:               .75rem;  // 12px
+
+//////////////////////////////////////
+//           SCREEN SIZE            //
+//////////////////////////////////////
+
+        // Small small screen / phone small
+$screen-xs:             320px;
+$screen-xs-min:         $screen-xs;             // 320px
+$screen-phone:          $screen-xs-min;         // 320px
+        // Small screen / phone
+$screen-sm:             544px;
+$screen-sm-min:         $screen-sm;             // 544px
+$screen-tablet:         $screen-sm-min;         // 544px
+        // Medium screen / tablet
+$screen-md:             767px;
+$screen-md-min:         $screen-md;             // 767px
+$screen-desktop:        $screen-md-min;         // 767px
+        // Medium screen / desktop small
+$screen-lg:             921px;
+$screen-lg-min:         $screen-lg;             // 921px
+$screen-desktop:        $screen-lg-min;         // 921px
+// Large screen / desktop
+$screen-xl:             1024px;
+$screen-xl-min:         $screen-xl;             // 1024px
+$screen-desktop:        $screen-xl-min;         // 1024px
+        // Large screen / desktop wide
+$screen-xxl:            1440px;
+$screen-xxl-min:        $screen-xxl;            // 1440px
+$screen-desktop-wide:   $screen-xxl-min;        // 1440px
